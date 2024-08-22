@@ -1,8 +1,9 @@
+import { Container } from "@mui/material";
 import Link from "next/link";
 
 export default function Page() {
   return (
-    <main>
+    <Container>
         <div style={{border: "1px solid lightgray", width: "500px", height: "100%", boxShadow: "1px 1px 1px gray", display: "block" ,margin: "10rem auto"}}>
             <h1 style={{textAlign: "center", padding: "2rem"}}>ประวัติส่วนตัว</h1>
             <p style={{padding: "0 0 0 2rem"}}>ชื่อ-นามสกุล: นาย ธนวัฒน์ เชื้อหนองปรง</p>
@@ -14,6 +15,6 @@ export default function Page() {
             {"    "}
             <Link href={"/about"}>About</Link>
         </div>
-    </main>
+    </Container>
   );
 }

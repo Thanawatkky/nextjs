@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { Button, Typography } from "@mui/material";
+import { Button, Container, Typography } from "@mui/material";
 export default function Page() {
   return (
-    <main>
+    <Container>
       <Typography variant="h5" sx={{color: 'white', bgcolor: 'blue '}}>เกี่ยวกับเรา</Typography>
       <br />
       <div>
@@ -10,6 +10,6 @@ export default function Page() {
        {"                "}
         <Button component={Link} href="/" replace={true} variant="contained" color="success">กลับหน้าแรก</Button>
       </div>
-    </main>
+    </Container>
   );
 }

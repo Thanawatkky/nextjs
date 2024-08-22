@@ -1,7 +1,9 @@
+import { Container } from "@mui/material";
+
 export default function DashboardPage() {
   return (
-    <main>
+    <Container>
       <h1>Admin Dashboard Page</h1>
-    </main>
+    </Container>
   );
 }
